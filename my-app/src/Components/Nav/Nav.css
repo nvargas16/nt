@@ -1,0 +1,22 @@
+.nav{
+    width:120px;
+    height:35px;
+    border-radius: 80px;
+    border: solid #3dd8d2 3px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #3dd8d2;
+
+    
+}
+
+
+.nav:hover{
+    
+    cursor: pointer;
+    background-color: #3dd8d2;
+    color: white;
+}
