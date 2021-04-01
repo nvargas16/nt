@@ -1,11 +1,11 @@
 import React from 'react';
-import Card from '../Components/Card/Card';
-import Logo from '../Components/Logo/Logo';
-import Nav from '../Components/Nav/Nav';
+import Card from '../../Components/Card/Card';
+import Logo from '../../Components/Logo/Logo';
+import Nav from '../../Components/Nav/Nav';
 import "./Home.css";
 import {Grid} from '@material-ui/core';
 import CardMedia from '@material-ui/core/CardMedia';
-import Media from '../Components/Media/Media';
+import Media from '../../Components/Media/Media';
 
 
 
