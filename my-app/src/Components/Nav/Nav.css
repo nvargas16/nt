@@ -10,6 +10,7 @@
     margin-left: 50px;
     color: #3dd8d2;
 
+
     
 }
 
@@ -19,4 +20,10 @@
     cursor: pointer;
     background-color: #3dd8d2;
     color: white;
+}
+
+#hi li{
+    display: inline;
+    float:right;
+    list-style-type: none;
 }

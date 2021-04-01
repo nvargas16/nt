@@ -5,7 +5,7 @@ import './Nav.css'
 function Nav(props){
     return(
         <div>
-            <button className= "nav">{props.navname}</button>
+            <button style={{display : 'inline-block'}} id= "hi" className= "nav">{props.navname}</button>
         </div>
     )
 

@@ -8,7 +8,7 @@ import Contact from './pages/Contact/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Contact />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );

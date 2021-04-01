@@ -6,7 +6,7 @@ import "./Home.css";
 import {Grid} from '@material-ui/core';
 import CardMedia from '@material-ui/core/CardMedia';
 import Media from '../../Components/Media/Media';
-
+import NavBar from '../../Components/NavBar/NavBar';
 
 
 function Home(){
@@ -25,14 +25,9 @@ function Home(){
      
             <Logo/>
 
-            <Nav navname= "Home" />
-            <Nav navname= "About" />
-            <Nav navname= "Projects" />
-            <Nav navname= "Contact" />
+            <NavBar/>
            
          
-           
-
            
         <Grid item xs={3} > 
             <Card title= "Natalie" date= "April 16th, 2000" image= "https://media.npr.org/assets/img/2018/07/03/1530302676_3c7718f28fa8937cd187d48a1c0041391_sq-d309616601b272792877d0a2db2a9d6b0dfaf366-s800-c85.jpg" 
