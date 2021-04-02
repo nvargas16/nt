@@ -1,11 +1,34 @@
 import React from 'react';
-import './Nav.css'
+import './Nav.css';
+import Logo from '../Logo/Logo';
 
 
-function Nav(props){
+function Nav(){
     return(
         <div>
-            <button style={{display : 'inline-block'}} id= "hi" className= "nav">{props.navname}</button>
+            <ul >
+                <li className= "list-nav">
+                    <Logo/>
+                </li>
+                <div className= "navbar">
+                
+                    <li className= "list-nav">
+                        <div className= "button">Home</div>
+                    </li>
+                    <li className= "list-nav"> 
+                        <div className= "button">About</div>
+                    </li>
+                    <li className= "list-nav">
+                        <div className= "button">Projects</div>
+                    </li>
+                    <li className= "list-nav">
+                        <div className= "button">Contact</div>
+                    </li>   
+
+                </div>
+    
+            </ul>
+            
         </div>
     )
 
