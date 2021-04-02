@@ -9,7 +9,7 @@ import Nav from './Components/Nav/Nav';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
+    <About />
   </React.StrictMode>,
   document.getElementById('root')
 );
