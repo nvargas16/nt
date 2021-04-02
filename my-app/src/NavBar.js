@@ -18,18 +18,19 @@ import {
               <Nav />
               
               <Switch>
-              {/* Switch renders a route and route is used to check if the path matches*/}
+              {/* Switch renders a route and route is used to check if the path matches
+              EXACT IS IMPORTANT*/}
 
-                  <Route path= "/">
+                  <Route exact path= "/"> 
                       <Home />
                   </Route>
-                  <Route path= "/About">
+                  <Route exact path= "/About">
                       <About />
                   </Route>
-                  <Route path= "/Projects">
+                  <Route exact path= "/Projects">
                       <Projects />
                   </Route>
-                  <Route path= "/Contact">
+                  <Route exact path= "/Contact">
                       <Contact />
                   </Route>
 
