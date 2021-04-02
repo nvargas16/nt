@@ -32,7 +32,7 @@ function Home(){
             text= "vvchfqvcqv svachqcgevq   ghfc avdshqvchgvfchqwcvc  d qwdcqhgcdgqc gcqwgdqfgqwdvagxcwg    fdcq" />
         </Grid>
         <Grid item xs={3}>
-            <Card title= "Khalil" date= "April 20th, 1900" image= "https://lh3.googleusercontent.com/proxy/22MwYC-dkS0j55P33dLodYv8UjZo0LAIZUT2D4unhCIQLiaFPfJnKxju_odFj8QtLYbH4UWUTnDQJ7JIQqxnLKGl08FRoaLyY1LluhTWqCL9CYFqJ3M5ASLFQpn9BWpgSU_n0SLrGYrf4xHEZGAe8bw" 
+            <Card title= "Khalil" date= "April 20th, 1900" image= "https://i.pinimg.com/originals/2a/d9/4f/2ad94fc74b8efa0b1a6f23425c1dea7d.jpg" 
             text= "vvchfqvcqv svachqcgevq   ghfc avdshqvchgvfchqwcvc  d qwdcqhgcdgqc gcqwgdqfgqwdvagxcwg    fdcq" />
         </Grid>
 

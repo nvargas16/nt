@@ -1,6 +1,7 @@
 .list-nav{
     list-style: none;
     display: inline-block;
+    text-decoration: none;
 }
 .navbar{
     display: inline-block;
@@ -21,12 +22,16 @@
     color: #3dd8d2;
     text-align: center;
     padding-top: 5px;
+    text-decoration: none;
 
 }
 .button:hover{
     cursor: pointer;
     background-color: #3dd8d2;
     color: white;
+}
+.hello{
+    text-decoration: none;
 }
 
 

@@ -5,11 +5,12 @@ import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 import Nav from './Components/Nav/Nav';
+import NavBar from './NavBar';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <About />
+    <NavBar />
   </React.StrictMode>,
   document.getElementById('root')
 );
