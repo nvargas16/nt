@@ -6,6 +6,7 @@ import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 import Nav from './Components/Nav/Nav';
 import NavBar from './NavBar';
+import Shapes from './Components/Shapes/Shapes';
 
 
 ReactDOM.render(
